@@ -8,10 +8,10 @@ edition = "2024"
 
 # Rust dependencies below
 [dependencies]
-dioxus = {version = "0.6.0", features = [] }
-reqwest = {version="0.12.20", features = ["json"] }
-serde = {version="1.0.210", features = ["derive"] }
-serde_json = {version = "1.0.130",features = []}
+dioxus = {version = "0.6.3", features = [] }
+reqwest = {version="0.12.23", features = ["json"] }
+serde = {version="1.0.219", features = ["derive"] }
+serde_json = {version = "1.0.143",features = []}
 
 [features]
 default = ["web"]
